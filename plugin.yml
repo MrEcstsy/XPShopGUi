@@ -1,0 +1,11 @@
+name: XpShopGUi
+main: xtcy\xpshop\Loader
+api: 5.0.0
+version: 1.0.0
+author: xtcy_
+
+permissions:
+  xpshop.command:
+    default: true
+  xpshop.command.admin:
+    default: true

@@ -1,0 +1,28 @@
+# (!) DO NOT CHANGE (!)
+version: 1.0.0
+
+shop:
+  player-exp:
+    name: "&r&l&6Ethereal&fHub"
+    lore:
+      - "&r&7Discover the mysteries of the server"
+      - "&r&7Visit the EXP shop, where wonders await"
+      - ""
+      - "&r&aYour Current EXP: &f{exp} EXP"
+  items:
+    - item: "paper" # Actual Item to give
+      name: "&r&l&cExample Paper" # Namae that will be added to item.
+      lore: # Lore that will be added to the item.
+        - "&r&7Example lore"
+      amount: 1 # actual amount to be given.
+      nbt: # NBT DATA (ignore if you dont know how to use this or what this is for.)
+        tag: ""
+        value: ""
+      price: 1000
+    - command: "give {player} diamond 1"
+      item: "diamond" # Item to show in the inventory.
+      name: "Diamond" # Name of the item in the inventory.
+      lore:
+        - "Epic diiamond" # Lore of the item in the inventory.
+      amount: 1 # amount to display in the inventory.
+      price: 1000
